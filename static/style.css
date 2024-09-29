@@ -1,0 +1,36 @@
+body {
+    background-color: #1c1c1c; /* สีพื้นหลังดำ */
+    color: #ff4747; /* สีตัวอักษรแดง */
+}
+.stButton button {
+    background-color: #ff4747; /* ปุ่มสีแดง */
+    color: white;
+}
+.stTextInput>div>div>input {
+    color: white;
+}
+.stTextInput>div>div>input:focus {
+    border-color: #ff4747;
+}
+h1 {
+    color: #ff4747;
+}
+.movie-title {
+    font-size: 18px;
+    color: #ff4747;
+}
+.movie-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+.movie-item img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ff4747;
+    border-radius: 10px;
+}
+.movie-item {
+    text-align: center;
+    margin-bottom: 10px;
+}
